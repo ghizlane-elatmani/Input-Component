@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+<!-- Please update value in the {}  -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Input component</h1>
 
-## Available Scripts
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-In the project directory, you can run:
+<div align="center">
+  <h3>
+    <a href="https://input-component-ge.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/ghizlane-elatmani/Input-Component">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-### `npm test`
+<!-- OVERVIEW -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `npm run build`
+![My Image](/src/img/input-component.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- You can see my demo here: "https://input-component-ge.netlify.app/"
+- With this project, I learn how to use efficiently component with React.
+- I hope to make more beautifuls websites and become an expert in front-end developmemt :)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-### `npm run eject`
+- [HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/fr/docs/Learn/JavaScript)
+- [React](https://reactjs.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp) was to build an application to complete the given user stories.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [x] User story: I can see error state
+- [x] User story: I can choose to disable input
+- [x] User story: I can choose to have helper text
+- [x] User story: I can choose to have an icon on the left or right (Use Google Icon and at least 5 variants)
+- [x] User story: I can have different input sizes
+- [x] User story: I can have different colors
+- [x] User story: I can choose to have input take the width of the parent
+- [x] User story: I can have multiline input like a textarea
+- [x] User story: When I hover or focus, I can see visual indicators
+- [x] User story: I can still access all input attributes
+- [x] User story (optional): Show input in a similar way like the design or use Storybook. Otherwise, showing the input in multiple states is enough
 
-## Learn More
+## How To Use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- Example:  -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-### Code Splitting
+```bash
+# Clone this repository
+$ git clone https://github.com/ghizlane-elatmani/Input-Component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Install dependencies
+$ npm install
 
-### Analyzing the Bundle Size
+# Run the app
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgements
 
-### Making a Progressive Web App
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Material Design Icons](https://google.github.io/material-design-icons/)
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website [input-component](https://input-component-ge.netlify.app/)
+- GitHub [@ghizlane-elatmani](https://github.com/ghizlane-elatmani)
